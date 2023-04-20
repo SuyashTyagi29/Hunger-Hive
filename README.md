@@ -18,3 +18,13 @@ Softwares Used : VS-Code, Star UML <br>
 Languages used: HTML, CSS, Javascript, SQL
 
 We have also provided some screenshots of the current under development website (Front-end only as of now): 
+<br> Home Page:<br>
+![image](https://user-images.githubusercontent.com/99592846/233407020-1b7c5535-9c2f-4baa-9061-d582f5c81296.png)
+Services: 
+<br> ![image](https://user-images.githubusercontent.com/99592846/233407378-dc9c7b8e-d0f5-4d99-940f-63bff4a486c7.png)
+<br> Menu page:
+![image](https://user-images.githubusercontent.com/99592846/233407678-2ea7fc9f-aa9a-4c7c-a208-5abc980bedc4.png)
+<br> Coupons and Deals page:
+![image](https://user-images.githubusercontent.com/99592846/233407908-4beebebc-5306-433b-a5ff-af0c6beab3c1.png)
+
+
