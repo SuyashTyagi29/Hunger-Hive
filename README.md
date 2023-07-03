@@ -1,5 +1,5 @@
 # Hunger-Hive
-Hunger Hive is an under-development full stack website that allows the customer to experience a fine dining option by allowing them to order food online, reserve tables, interact with a chatbot , leave feedbacks and much more.
+Hunger Hive is an under-development full stack website (link)that allows the customer to experience a fine dining option by allowing them to order food online, reserve tables, interact with a chatbot , leave feedbacks and much more.
 
 The site is currently under development, and as it is a part of the Object Oriented Software Engineering course, we have also included other non-program documents such as the Initial Requirement Document (IRD) , the Software Requirement Specification (SRS) Document and various other diagrams that we created using StarUML namely the Use Case Diagram, The Class Diagram, Sequence Diagrams, Activity diagrams and State Chart Diagrams.
 
