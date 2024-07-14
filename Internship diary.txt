@@ -1,0 +1,57 @@
+Internship diary:
+
+3-7 June: (Week - 1)
+-Attended Wells Fargo Orientation sessions to gain better understanding of the company's expectations, and how the internship would look like. 
+-Studied and clarified the expectations from the problem statement. 
+-Studied about the domain (crypto markets and algo trading) and noted down the observations. 
+-Discussed approaches for the algorithm to be designed with the team, put forward the detection strategy and the structure of the price data table.
+
+10-14 June : (Week -2)
+-initiated connection to websockets server for retrieving the market data (For simulating the overall functioning of the algorithm, how the data is going to be fetched, and then loading this file into a json file).
+-Studied about websockets (in python) and need for the same for the project. 
+-Collected market data for prices of cryptocurrencies on the different crypto exchanges. (sample dataset which was then used as a base for generating the synthetic data for different timestamps).
+-Gained a brief idea on how the SDV library of python works and how to use it for generating synthetic data. 
+-Mock testing of the algorithm against the synthetic dataset. (Using data retrieval via websockets and logging trade details). 
+-Removing redundant code in detect_arbitrage module/component for optimising overall performance of the algorithm. 
+-Discussed and proposed structure of design documents and the SRS doc.
+
+17-21 June ( Week -3) 
+-Made the different flowcharts for algorithm components to represent the flow of control visually. Also helped in making other diagrams such as the ER diagram & Class diagram after discussing the structure of Database with the Back-end team. 
+-Worked on documentation of the different algorithm components in the SDD(more in depth explanation of the same). 
+-Captured the different Functional and Non- Functional Requirements in the SRS document.
+-Studied more about how the algorithm can actually be optimised. Analysis of the runtime of different algo components as well.
+-Restructuring of the algorithm to adjust for the actual architecture to be implemented.
+-Having a dictionary lookup instead of a JSON to reduce data accessing time taken, refactoring code for the same.
+
+
+24-28 June (Week -4) 
+-Updated Flowcharts based on changes being incorporated in the Algorithm. 
+-Worked on and finalised SRS 1.0 and SDD 1.0 to highlight the baseline requirements and proposed solution for the same.
+-Presented work to team mentors and gathered and analysed the feedback to incorporate necessary changes.
+-Collaborated with Backend team to gain better understanding of the overall system architecture, what the different components mean and how is interactions between different components taking place.
+-Tried implementing min-max heap structure to store arbitrage opportunities rather than in a list, found issues in the approach, and hence dropped the idea. 
+-Studied more on crypto trading domain, particularly on the different market factors, namely market volatility, liquidity and how it impacts slippage, counter-party risks and how these risk factors can affect arbitrage decisions and the overall profits that can be generated on each trade. 
+
+
+1-5 July (Week -5) 
+-Formulated the approach to calculate volatility percentages for each crypto by using standard deviation of price differences (logarithmic) over a particular time period. Discussed approaches on how it affects the trading decision.
+-Assisted in calculating the market volatility percentages corresponding to crypto prices (in our DB) based on the formulated approach.
+-Tested algorithm and its functioning on adjusted buy and sell prices. Compared the performances and validated it based upon findings from real world crypto markets. 
+-Devised strategy to manage and account for counter-party risks, by using a adjusted profit proxy to make decisions on best possible trade. 
+-Found out different reliability factors for listed exchanges, normalised and weighted scores for each to calculate reliability scores for the crypto exchanges. Researched more about how management of counter-party risks in real-world scenarios and whether the formulated approach is an effective or not. 
+-Tested out the 2 possible approaches for accounting counter-party risks, one based on adjusting the buy and sell prices, the other based on adjusting net potential profit.
+-Risk Management ensured algorithm not only identifies arbitrage opportunities but also asses reliability and feasibility of the trade.
+
+
+7-12 July (Week-6) 
+-Read research paper on how the different factors contribute towards the arbitrage spread. Tried finding limitations in the proposed solution and the arbitrage approach in general.
+-Gathered data on different charges/overheads charged by the different crypto exchanges and assisted in making necessary changes in the cost calculation component of the algorithm. 
+-Made necessary changes in the design documents based on feedback from team leaders, updated components based on current progress of the proposed solution. 
+-Tested the liquidity price adjustment component as devised by fellow team members and reported issues found. Helped in mitigation of the same.  
+-Made presentations for interim demo and discussed with team members on possible future changes that can be made.
+-Had interim demo with team leaders and gathered feedback on the work done. Noted necessary suggestions and discussed improvements that can be made.  
+
+ 
+
+
+
