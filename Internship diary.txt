@@ -51,6 +51,32 @@ Internship diary:
 -Made presentations for interim demo and discussed with team members on possible future changes that can be made.
 -Had interim demo with team leaders and gathered feedback on the work done. Noted necessary suggestions and discussed improvements that can be made.  
 
+
+
+Learnings:
+1)Algorithm Design and Analysis: Used python for developing the algorithm and gained understanding of libraries like numpy, pandas for data manipulation and analysis.
+
+2)Real time data generation (Synthetic data generation) : Using SDV library of python to generate synthetic data that simulates real-time exchange data. Using Seaborn for generating graphs to analyse prices in market.
+
+3)Database Management: Assisted in implementation of efficient database schemas to store and manage large volumes of cryptocurrency trading data.
+
+4)Importance of documenting the work being carried out and following the AGILE methodology for efficient and higher quality development. 
+
+5)Cryptocurrency Trading Domain: Gained better understanding of the cryptocurrency trading landscape, including the mechanisms of different exchanges. Studied how various risk factors, such as counterparty risk, market volatility, liquidity, and slippage impact trading strategies.
+
+Challenges:
+1)Data Availability and Quality:  Managing and processing real-time data feeds from multiple exchanges was challenging due to varying data formats and update frequencies.
+
+2)Error Handling: Dealing with unexpected data anomalies and errors in the algorithm required extensive debugging and testing.
+
+3)Volatility Calculation: Accurately calculating and integrating market volatility into the algorithm to adjust trading strategies required complex statistical analysis.
+ 
+4)Database and Algorithm Integration: Ensuring seamless integration between the database schemas and the trading algorithm was technically challenging.
+
+
+My experience so far at Wells Fargo has been nothing but wonderful. It has helped me in honing my engineering & technical skills. Apart from these, it has also helped me to grow both as a student as well as a professional. Collaborating with my teammates on a daily basis, distributing and pre planning of work to effectively deliver the requirements efficiently and on time is something which was all together a new experience for me. It has helped me carry out the learnings from my school in a professional environment.
+  
+
  
 
 
