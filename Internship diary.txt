@@ -76,7 +76,25 @@ Challenges:
 
 My experience so far at Wells Fargo has been nothing but wonderful. It has helped me in honing my engineering & technical skills. Apart from these, it has also helped me to grow both as a student as well as a professional. Collaborating with my teammates on a daily basis, distributing and pre planning of work to effectively deliver the requirements efficiently and on time is something which was all together a new experience for me. It has helped me carry out the learnings from my school in a professional environment.
   
+So lets begin with the overall overview of how the arbitrage algorithm works. 
+First, based on the real time market data that we fetch from our backend,  we detect and look out for any price discrepancies that may exist across the different exchanges for the crypto that the user has decided to trade in. 
 
+Now we calculate the different trading costs/transaction overheads that are involved in a trade, and based on these we make decisions 
+regarding the feasibility of a trade. Important thing to note here is that the algorithm incorporates the price fluctuations that may have taken place using our Risk Management strategy, which is going to be discussed in the subsequent sections. 
+
+Risk Management is important as it ensures that our algorithm makes more informed decision and avoid trades that may appear profitable but may carry out higher risks. 
+
+Now, once we make a decision regarding the best possible trade, we proceed by executing buy and sell orders on the identified 
+exchanges and log transactions for future references. Ultimately , the flow is reverted back to the server. 
+
+
+Now, to discuss about the different algorithm components in brief ,
+First we begin with the arbitrage detection component that lists all possible opportunities that can be explored for the selected 
+cryptocurrencies. It does so by comparing prices of the selected crypto across the multiple exchanges. 
+
+Next , we have the cost calculation component. Here a decision is made regarding the identified opportunities such as whether to go ahead  with the trade or not. It takes into account the impacts of market factors like volatility and slippage that may impact the initial price offerings and after making the necessary adjustments , we calculate the potential profit that can be made from the particular opportunity that we explore.
+
+we can now move ahead towards our next component.
  
 
 
